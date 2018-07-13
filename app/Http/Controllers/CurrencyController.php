@@ -46,8 +46,8 @@ class CurrencyController extends Controller
 
     public function update(CurrencyRequest $request, Currency $currency)
     {
-        dd($request);
     }
+
 
     public function destroy(Currency $currency)
     {
